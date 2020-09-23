@@ -1,0 +1,9 @@
+.appbar-color {
+	background-color: #f0a224;
+}
+.language-active {
+	color: white;
+}
+.language-inactive {
+	color: black;
+}
