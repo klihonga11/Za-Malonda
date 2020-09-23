@@ -1,45 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="ny" translate="no">
     <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta charset="utf-8" />
+
         <title>Za Malonda</title>
-        <link rel="stylesheet" href="../../../../w3.css">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        
+        <link rel="stylesheet" href="../../../../w3.css" />
+        <link rel="stylesheet" href="../../../../appbar.css" />
+        <link rel="stylesheet" href="../../../../font-awesome-4.7.0/css/font-awesome.min.css" />
+        <link rel="icon" type="image/x-icon" href="../../../../favicon.ico" />
+        
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-W3BWJMC');
+        </script>
+        <!-- End Google Tag Manager -->
     </head>
-    <body class="w3-container">
-        <h1>2.2.2 Format</h1>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3BWJMC"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
 
-        <a target="_blank" href="../../../../images/formats/single_entry_bookkeeping.jpg">
-            <img src="../../../../images/formats/single_entry_bookkeeping.jpg" style="width:100%;"
-                alt="Single entry bookeeping format" class="w3-image w3-border">
-        </a>
+        <header class="w3-container appbar-color w3-top">
+            <div>
+                <a href="../../../../index.html">
+                    <span class="fa fa-home fa-2x" />
+                </a>
+                <span class="w3-margin-left" style="font-size: xx-large;">Za Malonda</span>
+            </div>
+            
+            <div style="margin-bottom: 8px;">
+                <a class="language-inactive" href="../../../en/bookkeeping/single_entry_bookkeeping/format.html">English</a>
+                <span> | </span>
+                <a class="language-active" href="../../../ch/bookkeeping/single_entry_bookkeeping/format.html">Chichewa</a>
+            </div>
+        </header>
 
-        <p><b>Date</b>: the date on which the transaction took place.</p>
-        <p><b>Description</b>: a short explanation of the transaction. 
-            <ul>
-                <li>The first entry of the month is named “Bal b/f” which is short for <strong>Balance Brought Forward</strong>.</li>
-                <li>This is the last balance amount from the previous month.</li>
-                <li>If you are starting a new business, there is no previous balance and so the Balance Brought Forward is 0.</li>
-            </ul>
-        </p>
-        <p><b>Ref</b>: short for reference. 
-            <ul>
-                <li>It is anything that can be used to track the transaction such as a receipt number.</li>
-                <li>If there is no reference, then it can be left blank.</p></li>
-            </ul>
-        </p>
-        <p><b>Money In</b>: the amount of money that has come into the business from the transaction.</p>
-        <p><b>Money Out</b>: the amount of money that has gone out of the business from the transaction.</p>
-        <p><b>Balance</b>: the amount of money the business has at the end of each transaction. It is calculated by:
-        <p><mark>Balance = Previous Balance + Money In - Money Out</mark></p>
-            <ul>
-                <li>Each transaction can only have one amount, either the money is coming into the business or the 
-                    money is going out of the business. <u>It cannot be both.</u></li>
-                <li>The last balance amount at the end of the month is called <strong>Balance Carried Forward</strong> 
-                    or 'Bal c/f' in short. This will be the Balance Brought Forward for the next month.</li>
-            </ul>
-        </p>
+        <br/> <br/> <br/>
 
-        <footer>
+        <article class="w3-container">
+            <h1>2.2.2 Format</h1>
+
+            <a target="_blank" href="../../../../images/formats/single_entry_bookkeeping.jpg">
+                <img src="../../../../images/formats/single_entry_bookkeeping.jpg" style="width:100%;"
+                    alt="Single entry bookeeping format" class="w3-image w3-border">
+            </a>
+
+            <p><b>Date</b>: the date on which the transaction took place.</p>
+            <p><b>Description</b>: a short explanation of the transaction. 
+                <ul>
+                    <li>The first entry of the month is named “Bal b/f” which is short for <strong>Balance Brought Forward</strong>.</li>
+                    <li>This is the last balance amount from the previous month.</li>
+                    <li>If you are starting a new business, there is no previous balance and so the Balance Brought Forward is 0.</li>
+                </ul>
+            </p>
+            <p><b>Ref</b>: short for reference. 
+                <ul>
+                    <li>It is anything that can be used to track the transaction such as a receipt number.</li>
+                    <li>If there is no reference, then it can be left blank.</p></li>
+                </ul>
+            </p>
+            <p><b>Money In</b>: the amount of money that has come into the business from the transaction.</p>
+            <p><b>Money Out</b>: the amount of money that has gone out of the business from the transaction.</p>
+            <p><b>Balance</b>: the amount of money the business has at the end of each transaction. It is calculated by:
+            <p><mark>Balance = Previous Balance + Money In - Money Out</mark></p>
+                <ul>
+                    <li>Each transaction can only have one amount, either the money is coming into the business or the 
+                        money is going out of the business. <u>It cannot be both.</u></li>
+                    <li>The last balance amount at the end of the month is called <strong>Balance Carried Forward</strong> 
+                        or 'Bal c/f' in short. This will be the Balance Brought Forward for the next month.</li>
+                </ul>
+            </p>
+        </article>
+
+        <footer class="w3-container">
             <p>Next: <a href="./example.html">2.2.3 Example</a></p>
         </footer>
     </body>
