@@ -2,8 +2,9 @@
 	background-color: #f0a224;
 }
 .language-active {
-	color: white;
+    color: white;
+    text-decoration: none;
 }
 .language-inactive {
-	color: black;
+    color: black;
 }
